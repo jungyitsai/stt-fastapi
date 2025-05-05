@@ -128,4 +128,4 @@ curl -X POST http://localhost:8000/audio/transcriptions \
 
 ---
 
-> Maintained by [Your Name or Team]
+> Maintained by Jung-Yi Tsai
