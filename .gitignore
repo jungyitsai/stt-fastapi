@@ -1,0 +1,51 @@
+# Python bytecode
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environment
+venv/
+.env
+.env.*
+
+# OS 系統檔
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.log
+*.tmp
+*.bak
+*.swp
+*.swo
+
+# FastAPI file uploads or transcriptions
+*.wav
+*.mp3
+*.flac
+*.m4a
+*.ogg
+*.opus
+*.json
+*.srt
+*.vtt
+*.txt
+
+# Docker
+*.pid
+*.sock
+docker-compose.override.yml
+/.docker/
+
+# Whisper model downloads (if any are cached)
+.whisper-cache/
+whisper_cache/
+
+# VSCode / PyCharm
+.vscode/
+.idea/
+
+# Model cache
+__model_cache__/
+*.onnx
+*.bin

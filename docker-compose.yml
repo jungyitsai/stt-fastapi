@@ -1,0 +1,13 @@
+version: '3.8'
+
+services:
+  stt-server:
+    build: .
+    container_name: stt-fastapi
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./app:/app
+      # 可選：若不想 build 時複製模型，也可以掛這行
+      # - ./models:/models
+
